@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180e7f85-a7da-4bcb-ae15-679e149144f9" name="Changes" comment="">
+    <list default="true" id="180e7f85-a7da-4bcb-ae15-679e149144f9" name="Changes" comment="Se sube el modelo de clases MVC">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/UML.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PKRQU1mxn22Rd8Hx3B9HZ6PwZ1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,6 +45,14 @@
       <option name="presentableId" value="Default" />
       <updated>1683203774278</updated>
     </task>
+    <task id="LOCAL-00001" summary="Se sube el modelo de clases MVC">
+      <created>1683205796376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683205796376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -54,5 +65,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se sube el modelo de clases MVC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se sube el modelo de clases MVC" />
   </component>
 </project>

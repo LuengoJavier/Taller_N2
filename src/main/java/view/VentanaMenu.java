@@ -73,20 +73,20 @@ public class VentanaMenu extends Ventana {
 
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == this.botonIngresarCafe) {
-            VentanaRegistroCliente ventanaRegistrarCliente= new VentanaRegistroCliente(automotoraController);
+            VentanaAgregar ventanaAgregar= new VentanaAgregar(cafeteriaController);
             //Cierra la ventana actual
             this.dispose();
         }
         if(e.getSource() == this.botonDescontinuarCafe){
-            VentanaRegistroVehiculo ventanaRegistroVehiculo= new VentanaRegistroVehiculo(automotoraController);
+            VentanaDescontinuar ventanaDescontinuar = new VentanaDescontinuar(cafeteriaController);
             this.dispose();
         }
         if(e.getSource() == this.botonBuscarCafe){
-            VentanaBuscarVehiculo ventanaBusquedaVehiculo= new VentanaBuscarVehiculo(automotoraController);
+            VentanaBuscar ventanaBuscar= new VentanaBuscar(cafeteriaController);
             this.dispose();
         }
         if(e.getSource() == this.botonModificarDatos){
-            VentanaBuscarVehiculo ventanaBusquedaVehiculo= new VentanaBuscarVehiculo(automotoraController);
+           // VentanaModificar ventanaModificar = new VentanaModificar(cafeteriaController);
             this.dispose();
         }
 

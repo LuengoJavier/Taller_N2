@@ -6,7 +6,7 @@ import model.Tamaño;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
-public class VentanaAgregar extends Ventana {
+public class VentanaDescontinuar extends Ventana {
     private JLabel textoEncabezado, textoNombre, textoGramos, textoAgua, textoIngrediente, textoTamaño;
     private JTextField  campoNombre, campoGramos, campoAgua, campoIngrediente;
     private JComboBox listaTamaño;
@@ -14,7 +14,7 @@ public class VentanaAgregar extends Ventana {
     private CafeteriaController cafeteriaController;
 
 
-    public VentanaAgregar(CafeteriaController cafeteriaController){
+    public VentanaDescontinuar(CafeteriaController cafeteriaController){
         super("Registro de cliente", 500, 520);
         this.cafeteriaController = cafeteriaController;
         generarElementosVentana();
@@ -91,11 +91,11 @@ public class VentanaAgregar extends Ventana {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == this.botonRegistrar) {
             if(registrarCafe()) {
-                cafeteriaController.aÑadirCafe(this.campoNombre.getText(),Integer.parseInt(this.campoGramos.getText()),Integer.parseInt(this.campoAgua.getText()),
-                        (Tamaño) this.listaTamaño.getSelectedItem(),this.campoIngrediente.getText());
-                    JOptionPane.showMessageDialog(this,"Café registrado correctamente");
-                    VentanaMenu ventanaMenu = new VentanaMenu(cafeteriaController);
-                    this.dispose();
+                cafeteriaController.eliminarCafe(new Cafe(this.campoNombre.getText(),Integer.parseInt(this.campoGramos.getText()),Integer.parseInt(this.campoAgua.getText()),
+                        (Tamaño) this.listaTamaño.getSelectedItem(),this.campoIngrediente.getText()));
+                JOptionPane.showMessageDialog(this,"Café eliminado correctamente");
+                VentanaMenu ventanaMenu = new VentanaMenu(cafeteriaController);
+                this.dispose();
             }
             else{
                 JOptionPane.showMessageDialog(this,"Ingrese datos válidos");

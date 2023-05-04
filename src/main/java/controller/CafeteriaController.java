@@ -1,5 +1,6 @@
 package controller;
 
+import data.GestorDeDatos;
 import model.Cafe;
 import model.Cafeteria;
 import model.Tamaño;
@@ -16,8 +17,10 @@ public class CafeteriaController {
 		this.nombre = nombre;
 		this.dirección = dirección;
 	}
-
-	public void aÑadirCafe(int gramosCafe, int mlAgua, Tamaño tamaño, String ingredientes) {
+	public  void cargarVehiculos(){
+		cafes = GestorDeDatos.leerArchivoCafes("cafes.txt");
+	}
+	public void aÑadirCafe(String nombre,int gramosCafe, int mlAgua, Tamaño tamaño, String ingredientes) {
 		Cafe  cafe = new Cafe(nombre,gramosCafe,mlAgua,tamaño,ingredientes);
 		if(buscarCafe(cafe) == null){
 			cafes.add(cafe);
@@ -48,7 +51,6 @@ public class CafeteriaController {
 		}
 	}
 
-	public Cafeteria modificarCafeteria(Cafeteria cafeteria) {
-		for()
-	}
+	//public Cafeteria modificarCafeteria(Cafeteria cafeteria) {}
+
 }

@@ -1,5 +1,6 @@
 package view;
 import controller.CafeteriaController;
+import model.Cafe;
 import model.Tamaño;
 
 import javax.swing.*;
@@ -90,7 +91,8 @@ public class VentanaAgregar extends Ventana {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == this.botonRegistrar) {
             if(registrarCafe()) {
-                if(cafeteriaController.aÑadirCafe(this.campoRut.getText());==null){
+                if(cafeteriaController.buscarCafe(new Cafe(this.campoNombre.getText(),Integer.parseInt(this.campoGramos),this.campoAgua,this.listaTamaño,this.campoIngrediente.getText()
+                ))){
                     automotoraController.agregarCliente(this.campoNombre.getText(),this.campoRut.getText(),this.campoDireccion.getText(),
                             Integer.parseInt(this.campoNumeroTelefonico.getText()), this.campoCorreo.getText());
                     JOptionPane.showMessageDialog(this,"Cliente registrado correctamente");

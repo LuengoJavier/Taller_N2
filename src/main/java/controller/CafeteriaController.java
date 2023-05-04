@@ -8,9 +8,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CafeteriaController {
+	private String nombre;
+	private String dirección;
 	private List<Cafe> cafes;
 
-	public void aÑadirCafe(int gramosCafe, int mlAgua, String tamaño, ArrayList<String> ingredientes) {
+	public CafeteriaController(String nombre, String dirección) {
+		this.nombre = nombre;
+		this.dirección = dirección;
+	}
+
+	public void aÑadirCafe(int gramosCafe, int mlAgua, Tamaño tamaño, String ingredientes) {
+		Cafe  cafe = new Cafe(nombre,gramosCafe,mlAgua,tamaño,ingredientes);
+		if(buscarCafe(cafe) == null){
+			cafes.add(cafe);
+		}
 
 	}
 
@@ -23,12 +34,21 @@ public class CafeteriaController {
 		}
 		return cafes;
 	}
-
+	public Cafe buscarCafe(Cafe cafe) {
+		for (Cafe cafe1: this.cafes){
+			if (cafe1.equals(cafe)){
+				return cafe;
+			}
+		}
+		return null;
+	}
 	public void eliminarCafe(Cafe cafe) {
-		throw new UnsupportedOperationException();
+		if (buscarCafe(cafe)!=null){
+			cafes.remove(cafe);
+		}
 	}
 
 	public Cafeteria modificarCafeteria(Cafeteria cafeteria) {
-		throw new UnsupportedOperationException();
+		for()
 	}
 }

@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="180e7f85-a7da-4bcb-ae15-679e149144f9" name="Changes" comment="Se sube actualización con clases 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/CafeteriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CafeteriaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/GestorDeDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/GestorDeDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Cafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Cafeteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Cafeteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/VentanaAgregar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/VentanaAgregar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/VentanaBuscar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/VentanaBuscar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/VentanaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/VentanaMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/VentanaTabla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/VentanaTabla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683207680999</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se sube actualización con clases 2">
+      <created>1683210954309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683210954309</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

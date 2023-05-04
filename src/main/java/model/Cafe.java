@@ -1,7 +1,5 @@
 package model;
 
-import java.util.ArrayList;
-
 public class Cafe {
 	private String nombre;
 	private int gramosCafe;
@@ -37,6 +35,10 @@ public class Cafe {
 
 	public String getIngredientes() {
 		return ingredientes;
+	}
+
+	public Tamaño getTamaño() {
+		return tamaño;
 	}
 
 	@Override

@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180e7f85-a7da-4bcb-ae15-679e149144f9" name="Changes" comment="Se sube el modelo de clases MVC">
+    <list default="true" id="180e7f85-a7da-4bcb-ae15-679e149144f9" name="Changes" comment="Se sube actualización con clases 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/UML.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CafeteriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CafeteriaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/GestorDeDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/GestorDeDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Cafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Cafeteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Cafeteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/VentanaAgregar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/VentanaAgregar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/VentanaBuscar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/VentanaBuscar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/VentanaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/VentanaMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/VentanaTabla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/VentanaTabla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -52,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683205796376</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se sube actualización con clases">
+      <created>1683207680999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683207680999</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,6 +89,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se sube el modelo de clases MVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se sube el modelo de clases MVC" />
+    <MESSAGE value="Se sube actualización con clases" />
+    <MESSAGE value="Se sube actualización con clases 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se sube actualización con clases 2" />
   </component>
 </project>

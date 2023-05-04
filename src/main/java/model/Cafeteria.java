@@ -4,13 +4,15 @@ import java.util.ArrayList;
 public class Cafeteria {
 	private String nombre;
 	private String direccion;
-	private ArrayList<String> redesSociales;
+	private String facebook;
+	private String instagram;
 	private ArrayList<Cafe> cafes;
 
-	public Cafeteria(String nombre, String direccion, ArrayList<String> redesSociales) {
+	public Cafeteria(String nombre, String direccion, String facebook, String instagram) {
 		this.nombre = nombre;
 		this.direccion = direccion;
-		this.redesSociales = redesSociales;
+		this.facebook = facebook;
+		this.instagram = instagram;
 		this.cafes = new ArrayList<>();
 	}
 
@@ -26,16 +28,20 @@ public class Cafeteria {
 		return this.direccion;
 	}
 
-	public ArrayList<String> getRedesSociales() {
-		return this.redesSociales;
+	public String getFacebook() {
+		return facebook;
 	}
 
-	public void setRedesSociales(ArrayList<String> redesSociales) {
-		this.redesSociales = redesSociales;
+	public String getInstagram() {
+		return instagram;
+	}
+
+	public ArrayList<Cafe> getCafes() {
+		return cafes;
 	}
 
 	@Override
 	public String toString() {
-		return getNombre()+","+getDireccion()+","+getRedesSociales();
+		return getNombre()+","+getDireccion()+","+getFacebook()+","+getInstagram();
 	}
 }
